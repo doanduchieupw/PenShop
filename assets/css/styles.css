@@ -242,7 +242,7 @@ img {
 }
 
 .home__title {
-    font-size: var(--bigger-font-size);
+    font-size: var(--biggest-font-size);
     margin-bottom: var(--mb-1);
 }
 
@@ -405,6 +405,9 @@ img {
     .home__container {
         column-gap: 8rem;
     }
+    .home__title {
+        font-size: 3.5rem;
+    }
 
 }
 
@@ -477,6 +480,10 @@ img {
 
     .home__pen {
         order: 1;
+    }
+
+    .home__title {
+        font-size: 3rem;
     }
 
     .home__shape {
